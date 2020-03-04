@@ -4,16 +4,14 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@master
-    - name: Setup dotnet
+    - name: AmazonAuthSignatureV4
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.100' # SDK Version to use.
-    - name: Build with dotnet
+    - name: Build AmazonAuthSignatureV4
       run: dotnet build      
       run: dotnet test
 
