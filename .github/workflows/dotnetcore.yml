@@ -3,6 +3,16 @@ name: .NET Core
 on: [push]
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: AmazonAuthSignatureV4
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.100' # SDK Version to use.
+    - name: Build AmazonAuthSignatureV4      
+      run: dotnet build
   build:
     runs-on: ubuntu-latest
     steps:
@@ -13,4 +23,3 @@ jobs:
         dotnet-version: '3.1.100' # SDK Version to use.
     - name: Build AmazonAuthSignatureV4      
       run: dotnet test
-
