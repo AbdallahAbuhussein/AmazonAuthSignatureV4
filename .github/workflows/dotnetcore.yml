@@ -14,4 +14,4 @@ jobs:
       with:
         dotnet-version: '3.1.100' # SDK Version to use.
     - name: Build with dotnet
-      run: dotnet build AmazonAuthSignatureV4/AWS.AmazonAuthSignatureV4/AWS.AmazonAuthSignatureV4/AWS.AmazonAuthSignatureV4.csproj
+      run: dotnet build
