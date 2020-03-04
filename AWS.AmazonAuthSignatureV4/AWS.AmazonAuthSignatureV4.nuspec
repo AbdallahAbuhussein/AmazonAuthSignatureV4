@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>    
+    <id>AWS_AmazonAuthSignature.V4</id>
+    <version>1.0.0</version>
+    <title>AWS Signature Version 4 generator</title>
+    <authors>Abdallah Abuhussein</authors>
+    <owners>Abdallah Abuhussein</owners>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/AbdallahAbuhussein/AmazonAuthSignatureV4</projectUrl>
+    <icon>icon100x100.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Signature Version 4 is the process to add authentication information to AWS requests sent by HTTP. This library simplifys the process and returns ready to use an authorization and the x-amz-date headers.</description>
+    <releaseNotes>Signature Version 4 is the process to add authentication information to AWS requests sent by HTTP. This library simplifys the process and returns ready to use an authorization and the x-amz-date headers.</releaseNotes>
+    <copyright></copyright>
+    <tags>AWS, Signature Version 4, SignatureV4, AWS Signature V4, AWS authorization V4</tags>
+    <dependencies>     
+    </dependencies>
+    <summary>Generating the "new" AWS V4 signatures can be a bit of a pain. This library simplifys the process and returns ready to use an authorization and the x-amz-date headers.</summary>    
+  </metadata> 
+<files>
+    <file src="icon100x100.png" target="" />
+</files>
+</package>

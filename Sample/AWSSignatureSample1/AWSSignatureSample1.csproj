@@ -1,15 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="AWS.AmazonAuthSignatureV4.nuspec" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="AWS.AmazonAuthSignatureV4.nuspec" />
+    <PackageReference Include="AWS_AmazonAuthSignature.V4" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
