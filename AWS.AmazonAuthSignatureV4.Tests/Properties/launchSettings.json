@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AWS.AmazonAuthSignatureV4.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Aws": "Value",
+        "AwsKey": "test"
+      }
+    }
+  }
+}
